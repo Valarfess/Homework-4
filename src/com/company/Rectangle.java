@@ -27,12 +27,14 @@ public class Rectangle {
         System.out.println("Всего было создано " + Rectangle.createdRectanglesCount + " прямоугольников");
     }
 
-    static boolean printClassName(boolean printInRussian) {
+    public static void printClassName(boolean printInRussian) {
         if (printInRussian) {
             System.out.println(RUSSIAN_CLASS_NAME);
-        } else
+        } else {
             System.out.println(ENGLISH_CLASS_NAME);
+        }
     }
+
 
 
 
@@ -62,6 +64,7 @@ public class Rectangle {
         if (this.x == rectangle.x && this.y == rectangle.y) return true;
         else return false;
     }
+
 
 
 }

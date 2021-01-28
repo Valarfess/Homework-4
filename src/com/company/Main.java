@@ -10,6 +10,7 @@ public class Main {
         rectangle1.printArea();
         rectangle2.printArea();
         rectangle3.printArea();
+
         rectangle1.printRectangleKind();
         rectangle2.printRectangleKind();
         rectangle3.printRectangleKind();
@@ -17,6 +18,12 @@ public class Main {
         System.out.println(rectangle1.isTheSameRectangle(rectangle2));
         System.out.println(rectangle2.isTheSameRectangle(rectangle3));
         System.out.println(rectangle3.isTheSameRectangle(rectangle1));
+
+        Rectangle.printRectanglesCount();
+        Rectangle.printClassName(true);
+
+
+
 
 	// write your code here
     }
