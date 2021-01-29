@@ -35,14 +35,10 @@ public class Rectangle {
         }
     }
 
-
-
-
     //расчет площади
     public double calculateArea() {
         double calculateArea = x * y;
         return calculateArea;
-
     }
 
     //вывод площади в консоль
@@ -64,7 +60,4 @@ public class Rectangle {
         if (this.x == rectangle.x && this.y == rectangle.y) return true;
         else return false;
     }
-
-
-
 }
